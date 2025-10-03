@@ -1,0 +1,143 @@
+Steps to Follow
+
+Set Up Your Project
+
+Create a new folder, e.g., css-exercises.
+
+Inside, create:
+
+index.html
+
+style.css
+
+Link your CSS file in your HTML:
+
+<link rel="stylesheet" href="style.css">
+
+
+Exercise Categories
+These are common CSS exercises TOP suggests:
+
+1. Selectors and Styling
+
+Target elements by:
+
+Type (p, h1)
+
+Class (.classname)
+
+ID (#idname)
+
+Tasks:
+
+Change colors
+
+Add fonts
+
+Set background images
+
+2. Box Model
+
+Practice with:
+
+width, height
+
+padding, margin
+
+border
+
+div {
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  margin: 20px;
+  border: 2px solid black;
+}
+
+3. Positioning
+
+Explore:
+
+static, relative, absolute, fixed, sticky
+
+.box {
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+
+4. Flexbox
+
+Layout exercises:
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+5. Grid
+
+Create grid layouts:
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 10px;
+}
+
+6. Responsive Design
+
+Use media queries:
+
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+7. Pseudo-classes & Pseudo-elements
+
+Examples:
+
+a:hover {
+  color: red;
+}
+
+p::first-letter {
+  font-size: 2rem;
+}
+
+8. Transitions & Animations
+
+Add smooth effects:
+
+div {
+  transition: all 0.3s ease;
+}
+
+div:hover {
+  transform: scale(1.1);
+}
+
+Git Practice
+
+Initialize a repo:
+
+git init
+git add .
+git commit -m "Initial commit for CSS exercises"
+git branch -M main
+git remote add origin <your-repo-url>
+git push -u origin main
+
+
+Commit after completing each exercise to track progress.
+
+Tips
+
+Don’t hesitate to copy snippets from MDN to learn how things work.
+
+Inspect elements in the browser to see live changes.
+
+Focus on understanding why a style works, not just how to write it.
